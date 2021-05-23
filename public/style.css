@@ -1,0 +1,150 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    font-size: 1.3rem;
+    height: 12%;
+}
+
+#registration {
+    font-size: 1.3rem;
+    height: 35%;
+    display: flex;
+    flex-direction: row;
+}
+
+.register {
+    height: 12%;
+}
+
+body {
+    background-color: #8e969d!important;
+}
+
+#pageBody {
+    background-color: #343a40!important;
+    color: white;
+    width: auto;
+    height: auto;
+    background-color: #d3d3c0;
+    margin: 10%;
+    margin-top: 0%;
+    font-size: large;
+    padding-bottom: 7%;
+}
+
+h1 {
+    text-align: center;
+    /* border-bottom: 2px solid white; */
+    width: auto;
+    padding-top: 1%;
+    /* margin-left: 20%;
+    margin-right: 20%; */
+}
+
+h3 {
+    margin: 2%;
+}
+
+p {
+    font-size: 20px;
+    margin: 1%;
+}
+
+li {
+    font-size: 20px;
+}
+
+.note {
+    text-align: center;
+    height: 80px;
+    background: -webkit-linear-gradient(left, #0072ff, #8811c5);
+    color: #fff;
+    font-weight: bold;
+    line-height: 80px;
+    margin: 10%;
+    margin-top: 6%;
+    margin-bottom: 0;
+    width: 80%;
+}
+
+#bodyHead {
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid; */
+    width: 60%;
+    margin-left: 20%;
+}
+
+.oxy {
+    margin-top: 5%;
+    color: white;
+    height: -webkit-fill-available;
+    width: 50%;
+    font-weight: 600;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 3%;
+    /* border: 12px white; */
+}
+
+#book {
+    background-color: #0072ff;
+    margin: 5%;
+    height: 3em;
+    /* width: 15rem; */
+}
+
+#rent {
+    background: -webkit-linear-gradient(left, #8811c5, #0072ff);
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    height: 3em;
+    /* width: 15rem; */
+}
+
+.available {
+    font-size: 1.5em;
+}
+
+#available {
+    background-color: #8811c5;
+    margin: 5%;
+    height: 3em;
+    /* width: 15rem; */
+    font-size: 1.5em;
+}
+
+
+/* a {
+    color: white;
+} */
+
+
+/* :hover .register {
+    color: #ffbcbc;
+}
+*/
+
+.register {
+    color: white;
+}
+
+:hover #available {
+    text-decoration: none;
+    color: white;
+    /* background-color: violet; */
+}
+
+:hover #book {
+    text-decoration: none;
+    color: white;
+    /* background-color: violet; */
+}
+
+:hover #rent {
+    text-decoration: none;
+    color: white;
+    /* background-color: violet; */
+}

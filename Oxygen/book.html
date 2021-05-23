@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="/Frontend/public/style.css">
+    <link rel="stylesheet" href="/Frontend/Registration/login.css">
+
+</head>
+
+<body class="text-center">
+    <nav class="navbar navbar-default navbar-fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="home.html">Covi-Cure</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="/Frontend/home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="/Frontend/Oxygen/oxygen.html">Oxygen</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="/Frontend/medicines/medicine.html">Medicines</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="/Frontend/Ambulance/ambulance.html"> Ambulance</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="/Frontend/rent/rent.html"> Rent Space</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" aria-current="page" href="/Frontend/about.html">About us</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        <div id="registration">
+            <a class="nav-link  register" aria-current="page" href="/Frontend/Registration/login.html">Login</a>
+            <a class="nav-link  register" aria-current="page" href="/Frontend/Registration/signup.html">Signup</a>
+            <!-- <a href="/Registration/login.html" class="nav-link register" id="login">Login</a>
+            <a href="/Registration/signup.html" class="nav-link register" id="Signup">Signup</a> -->
+        </div>
+    </nav>
+
+    <div class="container register-form">
+        <div class="form">
+            <form action="/register" method="POST">
+                <div class="note">
+                    <p style="font-size: xx-large;">Concentrator Registration Form</p>
+                </div>
+                <div class="form-content">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" name="name" class="form-control" autocomplete="off" placeholder="Name of Patient *" value="" />
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="VehicleOwner" class="form-control" autocomplete="off" placeholder=" State *" value="" />
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="OwnerEmail" class="form-control" autocomplete="off" placeholder="Address *" value="" />
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="OwnerEmail" class="form-control" autocomplete="off" placeholder="Current Oxygen Level *" value="" />
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" name="email" class="form-control" autocomplete="off" placeholder="Age *" value="" />
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="VehicleNumber" class="form-control" autocomplete="off" placeholder="City" value="" />
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="confirmPassword" class="form-control" autocomplete="off" placeholder="Contact Info *" value="" />
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="confirmPassword" class="form-control" autocomplete="off" placeholder="Email id *" value="" />
+                            </div>
+                            <!-- <div class="input-group">
+                                <label for='name'>Your name</label>
+                                <input name='name' id='name' placeholder="Enter your name" />
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <label for='files'>Upload Medical Prescription</label>
+                        <input id='files' type="file" name="files" required multiple>
+                        <button class="submit-btn" type='submit'>Upload</button>
+                    </div>
+                    <!-- <button type="submit" id="btnSubmit" class="btnSubmit" value="register">Submit Application</button> -->
+                    <a href="book.html" type="submit" id="btnSubmit" class="btnSubmit" value="register">Submit Application</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="book.js"></script>
+
+</html>
